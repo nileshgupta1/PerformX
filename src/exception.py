@@ -1,5 +1,4 @@
 import sys
-import logging
 
 def error_message_detail(error, error_detail:sys):
     _,_,exc_tb = error_detail.exc_info() # exc_tb stores info about on which file, which line number the exception has occurred
